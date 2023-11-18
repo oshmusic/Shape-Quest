@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Shape Quest</string>
+    <string name="playerStatsLabel">Player stats:</string>
+    <string name="enemyStatsLabel">Enemy stats:</string>
+    <string name="magicAttackButtonLabel">Magic \nAttack</string>
+    <string name="physicalAttackButtonLabel">Physical \nAttack</string>
+    <string name="startNewGameButtonLabel">New Game</string>
+    <string name="loadSavedGameButtonLabel">Load Saved Game</string>
+    <string name="placeholderProgressText">PLACEHOLDER: Progress 0/x</string>
+    <string name="defaultStats">Heath: 25/25 \nMagic Attack: 5 \nMagic Defense: 5 \nPhysical Attack: 5 \nPhysical Defense: 5</string>
+    <string name="defaultOptionLabel">Balanced\nFocus</string>
+    <string name="magFocusStats">Health: 25/25 \nMagic Attack: 6 \nMagic Defense: 6 \nPhysical Attack: 4 \nPhysical Defense: 4</string>
+    <string name="magOptionLabel">Magic\nFocus</string>
+    <string name="physFocusStats" translatable="false">Health: 25/25 \nMagic Attack: 4 \nMagic Defense: 4 \nPhysical Attack: 6 \nPhysical Defense: 6</string>
+    <string name="physOptionLabel">Physical\nFocus</string>
+    <string name="upgradePrompt">Upgrade your stats!</string>
+    <string name="upgradePlaceholder1">PLACEHOLDER: Upgrade 1</string>
+    <string name="upgradePlaceholder2">PLACEHOLDER: Upgrade 2</string>
+    <string name="upgradePlaceholder3">PLACEHOLDER: Upgrade 3</string>
+    <string name="skip">Skip</string>
+    <string name="storyPlaceholder">PLACEHOLDER: STORY</string>
+    <string name="cont">Continue</string>
+    <string name="tutorialPlaceholder">See tutorial?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="statUpgradePlaceholder">UPGRADE PLACEHOLDER</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="characterCustomizationTitle">Choose your character!</string>
+    <string name="placeholderImage">Placeholder image</string>
+    <string name="playerImage">Player (image)</string>
+    <string name="enemyImage">Enemy (image)</string>
+    <string name="balancedPlayerImage">Balanced Player Image</string>
+    <string name="magicPlayerImage">Magic Player Image</string>
+    <string name="physicalPlayerImage">Physical Player Image</string>
+    <string name="gameOverText">GAME OVER</string>
+    <string name="toMainMenuButtonText">Main Menu</string>
+    <string name="placeholderPlayerEnemyStatsText">PLACEHOLDER:\nstats not yet loaded</string>
+    <string name="victoryMessage">VICTORY!</string>
+    <string name="startingProgress">Progress: 0/11</string>
+    <string name="progressString">Progress: </string>
+    <string name="statTutorialLabel">Stat Tutorial</string>
+    <string name="fightTutorialLabel">Combat Tutorial</string>
+    <string name="upgradeTutorialLabel">Upgrade Tutorial</string>
+    <string name="currentHealthUpgradeButtonText">Current Health +3</string>
+    <string name="maxHealthUpgradeButtonText">Max Health +3</string>
+    <string name="magicAttackUpgradeButtonText">Magic Attack +3</string>
+    <string name="magicDefenseUpgradeButtonText">Magic Defense +3</string>
+    <string name="physicalAttackUpgradeButtonText">Physical Attack +3</string>
+    <string name="physicalDefenseUpgradeButtonText">Physical Defense +3</string>
+    <string-array name="storyStringsArray">
+        <item>You are traveling down a long road, carrying a rare medicine for your sister in your
+            pocket. The vial gleams in your bag. A large monster jumps out and steals it.
+            You chase after it and find what seems to be its den. You see a smaller monster
+            guarding the entrance. There\'s only one way past it.</item>
+        <item>You enter the structure. A monster looks at you in shock.</item>
+        <item>As you go deeper into the den, you encounter a fork in the road. A monster guards each path.
+            You choose to fight the weaker looking one.</item>
+        <item>The path is strangely narrow. There\'s nowhere to hide when something appears.</item>
+        <item>You come to a room at the end of the road you chose. A slightly bigger monster sits
+            in the corner. You can see it isn\'t the same one you encountered earlier, so you try to
+            leave without disturbing it. The ground crunches below your feet. The monster turns
+            around and attacks.</item>
+        <item>Having hit a dead end, you turn around and try the other path. The guard is still
+            there, but you now feel powerful enough to take it on.</item>
+        <item>This path leads to a much larger area than the first. Three monsters are in this room.
+            They are far enough apart that you can take them on one at a time. You approach the one
+            closest to you.</item>
+        <item>The other two still haven\'t noticed you. You again attack the closest one.</item>
+        <item>The third finally sees you. It attacks, angry that you have killed its friends.</item>
+        <item>With the room now cleared, you see a small opening, barely big enough for you to crawl
+            through. With no where else to go, you enter it. It seems to go on forever. The den is
+            much larger than you could have guessed. After what feels like an eternity, the crawl
+            space opens to a room full of shiny objects. Sitting in the center is the monster who
+            stole your vial.</item>
+        <item> You feel stronger than before. You finally have your vial back. The medicine is still
+            intact. Your sister will be saved.</item>
+    </string-array>
+    <string-array name="tutorialStringsArray">
+        <item>How the game works: All entities have two skills: Magic and Physical. Each skill has
+            an attack and defense stat. The attack stat determines the power of an attack made with
+            that skill, while the defense stat reduces damage taken from attacks made with that skill.</item>
+        <item>In a fight, combat occurs in turns. Sometimes you will move first, but other times your opponent will.
+            All moves are resolved before the next turn starts. To select your move,
+            click on the button labeled with the attack type you want (“Magic Attack” or “Physical Attack”).</item>
+        <item>After completing each fight, you will be presented with three upgrade options. One is
+            always related to your Magic skill, one is always related to your Physical skill, and
+            one is always related to your health.</item>
+    </string-array>
+</resources>
